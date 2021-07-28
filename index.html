@@ -20,7 +20,11 @@
       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top pt-3">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="./icons/brand-logo.png" style="width: 290px" alt="" />
+            <img
+              src="./icons/brand-logo.png"
+              style="width: 290px"
+              alt="penguin-fashion"
+            />
           </a>
           <button
             class="navbar-toggler"
@@ -37,7 +41,7 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a
-                  class="nav-link active fw-bold text-end"
+                  class="nav-link active fw-bold text-end px-0 px-lg-4"
                   aria-current="page"
                   href="#"
                   >Home</a
@@ -45,25 +49,25 @@
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link active fw-bold text-end"
+                  class="nav-link active fw-bold text-end px-0 px-lg-4"
                   aria-current="page"
-                  href="#"
+                  href="#product"
                   >Product</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link active fw-bold text-end"
+                  class="nav-link active fw-bold text-end px-0 px-lg-4"
                   aria-current="page"
-                  href="#"
+                  href="#about-us"
                   >About Us</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link active fw-bold text-end"
+                  class="nav-link active fw-bold text-end px-0 px-lg-4"
                   aria-current="page"
-                  href="#"
+                  href="#contact-us"
                   >Contact Us</a
                 >
               </li>
@@ -72,16 +76,9 @@
         </div>
       </nav>
       <!-- Hero Section -->
-      <div class="container my-3 py-5">
+      <div class="container my-3 py-5" id="#">
         <div class="row align-items-center justify-content-center my-5">
-          <div class="col-lg-6 col-sm-12">
-            <img
-              src="./images/hero-image.png"
-              alt="hero image"
-              class="d-block mx-auto w-75"
-            />
-          </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-12 order-sm-last">
             <h1 class="display-1 fw-bolder text-uppercase">
               <span class="text-warning">Nike React</span> Infinity Run 2
             </h1>
@@ -96,13 +93,20 @@
               <i class="fas fa-shopping-cart"></i> Buy Now
             </button>
           </div>
+          <div class="col-lg-6 col-12 order-sm-first">
+            <img
+              src="./images/hero-image.png"
+              alt="hero image"
+              class="d-block mx-auto w-75"
+            />
+          </div>
         </div>
       </div>
     </header>
     <!-- Main Section -->
     <main>
       <!-- Casual Shoe Section -->
-      <div class="container my-5">
+      <div class="container my-5" id="product">
         <h1>Casual Shoes</h1>
         <div class="row">
           <!-- Shoe One -->
@@ -145,7 +149,7 @@
             <div class="card border-0 shadow-sm p-3">
               <img
                 src="./images/casual-shoe-two.png"
-                class="card-img-topd-block mx-auto"
+                class="card-img-top d-block mx-auto"
                 alt="casual shoe"
                 style="width: 350px; height: 350px"
               />
@@ -222,7 +226,7 @@
               <img
                 src="./images/formal-shoe-one.png"
                 class="card-img-top d-block mx-auto"
-                alt="casual shoe"
+                alt="formal shoe"
                 style="width: 100%"
               />
               <div class="card-body">
@@ -257,7 +261,7 @@
               <img
                 src="./images/formal-shoe-two.png"
                 class="card-img-top d-block mx-auto"
-                alt="casual shoe"
+                alt="formal shoe"
                 style="width: 100%"
               />
               <div class="card-body">
@@ -292,7 +296,7 @@
               <img
                 src="./images/formal-shoe-three.png"
                 class="card-img-top d-block mx-auto"
-                alt="casual shoe"
+                alt="formal shoe"
                 style="width: 100%"
               />
               <div class="card-body">
@@ -328,7 +332,11 @@
         <div class="row row-cols-2 g-5 align-items-center">
           <!-- Feature Image -->
           <div class="col-lg-6 col-12 order-sm-last">
-            <img src="./icons/feature-img.png" alt="" style="width: 100%" />
+            <img
+              src="./icons/feature-img.png"
+              alt="feature image"
+              style="width: 100%"
+            />
           </div>
           <!-- Feature Content -->
           <div class="col-lg-6 col-12 order-sm-first">
@@ -361,7 +369,7 @@
                   <div class="feature--img">
                     <img
                       src="./icons/box-icon.png"
-                      alt="Store"
+                      alt="Box"
                       style="width: 78px; height: 82px"
                       class="d-block mx-auto"
                     />
@@ -383,7 +391,7 @@
                   <div class="feature--img">
                     <img
                       src="./icons/store-icon.png"
-                      alt="Store"
+                      alt="Headphone"
                       style="width: 78px; height: 82px"
                       class="d-block mx-auto"
                     />
