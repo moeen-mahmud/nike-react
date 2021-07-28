@@ -21,13 +21,13 @@
         class="
           navbar navbar-expand-lg navbar-light
           bg-transparent
-          text-dark
           fixed-top
+          pt-3
         "
       >
-        <div class="container px-5 py-3">
+        <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="./icons/brand-logo.png" alt="Brand Logo" class="w-50" />
+            <img src="./icons/brand-logo.png" style="width: 290px" alt="" />
           </a>
           <button
             class="navbar-toggler"
@@ -67,28 +67,43 @@
         </div>
       </nav>
       <!-- Hero Section -->
-      <div
-        class="
-          hero-container
-          mt-5
-          pt-5
-          d-flex
-          justify-content-center
-          align-items-center
-        "
-      >
-        <section class="img-section">
-          <img src="./images/hero-image.png" alt="Hero Image" class="w-50" />
-        </section>
-        <section class="content-section">
-          <h1><span>Nike React</span> Infinity Run 2</h1>
-        </section>
+      <div class="container my-3 py-5">
+        <div class="row align-items-center justify-content-center my-5">
+          <div class="col-lg-6 col-sm-12">
+            <img
+              src="./images/hero-image.png"
+              alt="hero image"
+              class="d-block mx-auto"
+              style="width: 510px"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-1 fw-bolder text-uppercase">
+              <span class="text-warning">Nike React</span> Infinity Run 2
+            </h1>
+            <p class="w-75 mt-3">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <button
+              type="button"
+              class="btn btn-primary px-4 py-3 rounded-3 mt-4"
+            >
+              <i class="fas fa-shopping-cart"></i> Buy Now
+            </button>
+          </div>
+        </div>
       </div>
     </header>
     <!-- Main Section -->
     <main></main>
     <!-- Footer Section -->
     <footer></footer>
+    <!-- Fontawesome CDN -->
+    <script
+      src="https://kit.fontawesome.com/0442be25ff.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Bootstrap JavaScript CDN -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
